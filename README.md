@@ -1,27 +1,33 @@
 # 剑桥常用信息/服务汇总
 
-## 快速选课入口
-
-[选课登录（校内或 SSLVPN）（选课时段内有效）](http://zhjwxk.cic.tsinghua.edu.cn/xklogin.do)
-
 ## 文件内容
 - [accounts.md](https://github.com/sc303165/CBUservices/blob/master/docs/accounts.md)
     - 社交媒体
         - Twitter
         - Instgram
         - Facebook
+        - 官方网站
         - 微信公众号
+        - 小红书
         - 微博
         - 知乎
-- [info.md](info.md)
-    - INFO重要信息集合
-        - 校历
-            - 2022-2023学年 
-        - 本科专业培养方案
-        - 学校宣传资料
-            - INFO 版本
-            - 主页版本
-        - 选课时间表
+- [living.md](https://github.com/sc303165/CBUservices/blob/master/docs/camsis.md)
+    - 剑桥市内生活信息集合
+        - 超市
+            - Co-op
+            - Sainsbury's
+            - TESCO
+            - M&S
+        - 就医
+            - College Nurse
+            - GP (General Practitioner)
+            - 医院
+        - 餐馆
+            - 中餐
+            - 外餐
+        - 理发
+            - 华人理发店
+            - 英国理发店
         - 选课快捷方式
         - 选课系统相关说明
         - 期末考试时间/地点查询
@@ -53,65 +59,23 @@
         - 清新时报
         - 各食堂进入人数
 - [services.md](services.md)
-    - 清华服务使用指北（主要面向 Linux 用户）
-        - DNS/NTP
-        - SSLVPN
-        - 上网认证
-            - 校园网基础知识
-            - 命令行认证 自动认证
-                - 命令行认证
-                - 自动认证
-            - 远端服务器代认证
-            - 远端服务器网页认证
-            - Tsinghua-Secure
-                - NetworkManager
-                - wpa_supplicant
-                - iwd
-            - Tsinghua-Secure 仅校内登录方式
-        - 校园网特性讨论
-            - 二层隔离/邻居发现隔离
-                - IPv4
-                - IPv6
-            - 低端口阻断
-            - 动态 IP
-                - IPv6 静态后缀或短 IPv6 地址
-                - 尝试获取某一特定IPv4、IPv6地址
-            - 院系网（三层接入）的 IPv6
-            - 不符合 RFC 的 DHCPv6
-            - 30分钟无流量掉准入
-            - 掉准出后无法准出
-            - 准入后（仅校内登录后）无法准出
-            - 未准入时其他机器能 ping 通，但不能 ssh
-        - 清华云盘
-            - 使用 Terminal 客户端
-                - 获取 Token
-                - 替换部分文件实现 Token 登录
-                - 编译 Terminal 客户端
-            - Chrome 提醒下载的文件危险
-        - ISATAP（已停止）
-            - 获取IPv6挂PT
-        - WIN 10 激活
-        - 正版操作系统与软件下载
-            - ITS
-            - TUNA
-        - 校内 IP 段
-- [templates.md](templates.md)
-    - LaTeX 等模板
-        - 《如何使用 LaTeX 排版论文》讲稿
-        - ThuThesis
-        - ThuWordThesis
-        - THU-Beamer-Theme
-        - 清华大学中文Beamer 模板
-        - TsinghuaBeamear
-        - Report Presentation for Tsinghua University
-        - thubeamer
-        - THU coursework Template
-        - 清华大学近代物理实验报告模版
-        - THU Letter of Recommendation Template
-        - A Simple Tsinghua Letterhead Template
-        - CV-tsinghua-template
-        - THU-Exam-LaTeX-Template
-        - ilatex
+    - 剑桥大学技术性服务使用指北
+        - Wi-Fi
+            - eduroam
+            - UniOfCam
+            - UniOfCam-Guest
+            - 学院Wi-Fi
+        - OneDrive (剑桥云盘)
+        - 正版软件下载与激活
+            - Windows
+            - Office 365
+            - MATLAB
+            - 杀毒软件
+- [colleges.md](colleges.md)
+    - 31个学院信息汇总
+        - Trinity College
+        - St John's College
+        - King's College
 - [utils.md](utils.md)
     - 一些脚本和工具
         - 校园网认证工具汇总
@@ -170,7 +134,7 @@
 
 ## 知道某个重要信息，但repo中未列出？
 
-欢迎贡献！请 [PR](https://github.com/ZenithalHourlyRate/thuservices/pulls)！
+欢迎贡献！请 [PR](https://github.com/sc303165/cbuservices/pulls)！
 
 需要注意的是[本 repo](https://github.com/ZenithalHourlyRate/thuservices) 中使用了 [pre-commit hook](https://github.com/ZenithalHourlyRate/thuservices/blob/master/pre-commit)，请[安装](https://git-scm.com/book/zh/v2/%E8%87%AA%E5%AE%9A%E4%B9%89-Git-Git-%E9%92%A9%E5%AD%90)，并在有 bash 与 python3 的环境中进行 commit。
 
