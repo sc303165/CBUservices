@@ -5,7 +5,7 @@
 [选课登录（校内或 SSLVPN）（选课时段内有效）](http://zhjwxk.cic.tsinghua.edu.cn/xklogin.do)
 
 ## 文件内容
-- [accounts.md](accounts.md)
+- [accounts.md](https://github.com/sc303165/CBUservices/blob/master/docs/accounts.md)
     - 社交媒体
         - Twitter
         - Instgram
