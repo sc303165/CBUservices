@@ -11,7 +11,7 @@
 ## Facebook
 
 ## 官方网站
-- Cambridge SU (https://www.cambridgesu.co.uk/)
+- Cambridge SU (剑桥大学学生会)[https://www.cambridgesu.co.uk/]
 
 ## 微信公众号
 
