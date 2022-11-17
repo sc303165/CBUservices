@@ -1,4 +1,4 @@
-# 清华常用信息/服务汇总
+# 剑桥常用信息/服务汇总
 
 ## 快速选课入口
 
@@ -6,8 +6,12 @@
 
 ## 文件内容
 - [accounts.md](accounts.md)
-    - 公众帐号们
+    - 社交媒体
+        - Twitter
+        - Instgram
+        - Facebook
         - 微信公众号
+        - 微博
         - 知乎
 - [info.md](info.md)
     - INFO重要信息集合
